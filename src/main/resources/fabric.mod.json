@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "train_mod",
+  "version": "${version}",
+  "name": "Train Mod",
+  "description": "A mod that adds 3D trains and rails to Minecraft.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.train_mod.TrainMod"
+    ]
+  },
+  "mixins": [
+    "train_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
